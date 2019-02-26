@@ -31,10 +31,13 @@ const createEventEmitterMiddleware = actions => ({ dispatch, getState }) => next
 /*
 *   Add createEventEmitterMiddleware to your store with applyMiddleware, example:
 *
-*     const eventEmitterMiddleware = createEventEmitterMiddleware([
+*     const actions = [
 *     'IS_SOLVED',
 *     'PAUSE_TIMER',
-*   ]);
+*   ];
+*
+*     const eventEmitterMiddleware = createEventEmitterMiddleware(actions);
+*
 *   const enhancer = composeWithDevTools(applyMiddleware(
 *     thunkMiddleWare,
 *     eventEmitterMiddleware
