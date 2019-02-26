@@ -1,6 +1,6 @@
 {
   "name": "event-emitter-middleware",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "A redux middleware module for emitting action events to eventlisteners outside of your application.",
   "main": "index.js",
   "scripts": {

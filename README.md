@@ -18,4 +18,9 @@ const enhancer = composeWithDevTools(applyMiddleware(
 
 const store = createStore(persistedReducer, {}, enhancer);
 
+// Then in another app in the same window can listen listen to these    action events.
+
+
+window.addEventListener('IS_SOLVED', customEventHandler);
+
 ```
