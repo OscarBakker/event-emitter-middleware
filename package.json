@@ -1,0 +1,11 @@
+{
+  "name": "event-emitter-middleware",
+  "version": "1.0.0",
+  "description": "A redux middleware module for emitting action events to eventlisteners outside of your application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
