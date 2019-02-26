@@ -1,6 +1,6 @@
 # event-emitter-middleware
 #### A redux middleware module for emitting action events to event listeners outside of your application.
-
+https://github.com/OscarBakker/event-emitter-middleware
 #### Add createEventEmitterMiddleware to your store with applyMiddleware, example:
 
 ```
